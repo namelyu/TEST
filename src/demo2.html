@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片显示</title>
+</head>
+<body>
+    <!--图片路径：
+    文件全称：文件名+文件后缀
+    1.绝对路径
+    图片全路径  作为测试 练习 不建议
+   file:/// C:\Program Files (x86)\Microsoft.NET\RedistList
+    2.相对路径
+    1）图片与当前页面在同级目录下（兄弟）
+    src="文件全称"
+    2）图片所在文件夹与当前页面在同一级目录（父子）
+    src="图片文件夹/图片全称"
+    3）图片与当前页面所在文件夹在同一目录（爷爷，爸爸）
+    ../向上反一级目录
+    src="../"
+    3.根路径
+    ./
+    -->
+
+    <!--<img src="E:\src\timg.jpeg"/>-->
+
+    <img src="file:///E:/src/timg.jpeg">
+    <img src="timg.jpeg">
+    <img src="../timg.jpeg">
+   <p align="center"><img  alt="图片路径不对" width="512" height="288" title="这就是你的图片" src="img/timg.jpeg"></p>
+</body>
+</html>
