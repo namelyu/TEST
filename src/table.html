@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+    <style>
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table align="center" border="3px" bgcolor="#a52a2a" width="600px" cellspacing="" cellpadding="10">
+        <!--cellspacing:单元格于单元格之间的宽度
+        cellpadding:内容与表格之间的距离
+        colspan:列合并
+        rowspan：行合并
+    -->
+        <tr><!--行-->
+            <th>周一</th><!--列-->
+            <th>周二</th>
+            <th>周三</th>
+        </tr>
+        <tr><!--行-->hh
+            <td>数学</td><!--列-->
+            <td>英语</td>
+            <td>语文</td>
+        </tr>
+        <tr><!--行-->
+            <td>物理</td><!--列-->
+            <td>化学</td>
+            <td>生物</td>
+        </tr>
+        <tr><!--行-->
+            <td>政治</td><!--列-->
+            <td>地理</td>
+            <td>历史</td>
+        </tr>
+    </table>
+    <table align="center" border="3px" bgcolor="" width="600px" cellspacing="" cellpadding="10">
+        <!--cellspacing:单元格于单元格之间的宽度
+        cellpadding:内容与表格之间的距离
+        colspan:列合并
+        rowspan：行合并
+    -->
+        <tr><!--行-->
+            <th colspan="3">课程表</th><!--列-->
+
+        </tr>
+        <tr><!--行-->
+            <th>周一</th><!--列-->
+            <th>周二</th>
+            <th>周三</th>
+        </tr>
+        <tr><!--行-->hh
+            <td>数学</td><!--列-->
+            <td>英语</td>
+            <td>语文</td>
+        </tr>
+        <tr><!--行-->
+            <td>物理</td><!--列-->
+            <td rowspan="2">化学</td>
+            <td rowspan="3">生物</td>
+        </tr>
+        <tr><!--行-->
+            <td>政治</td><!--列-->
+
+
+        </tr>
+        <tr><!--行-->
+            <td rowspan="2">政治</td><!--列-->
+            <td >地理</td>
+
+        </tr>
+        <tr><!--行-->hh
+
+            <td rowspan="2">英语</td>
+            <td>语文</td>
+        </tr>
+        <tr><!--行-->hh
+            <td>生物</td><!--列-->
+
+            <td>语文</td>
+        </tr>
+    </table>
+</body>
+</html>
